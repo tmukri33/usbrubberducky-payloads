@@ -1,0 +1,13 @@
+REM Name: Outlook-Email-Prank
+REM Author: tmukri33
+REM Description: Your colleague left his screen unlocked. Ducky will make him invite you to a grand party.
+REM Target: Windows Outlook via cmd
+GUI r
+DELAY 50
+STRING outlook.exe /c ipm.note /m tmukri_pmc@qr.com.qa?v=1?&subject=PARTY
+ENTER
+DELAY 250
+STRING I am inviting everyone to a party at Four Seasons on Sunday.
+
+ALT S
+ENTER
